@@ -1,10 +1,7 @@
 package org.cva.service;
 
 
-import org.cva.model.Animal;
-import org.cva.model.Loro;
-import org.cva.model.Perro;
-import org.cva.model.TipoAnimal;
+import org.cva.model.*;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -35,6 +32,9 @@ public class AnimalService {
                     break;
                 case "loro":
                     animal = new Loro(nom, ono);
+                    break;
+                case "pez":
+                    animal = new Pez(nom, ono);
                     break;
                 default:
                     System.err.println("Tipo de animal no reconocido " + tipo);

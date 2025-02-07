@@ -16,9 +16,11 @@ public class Main {
 
 
         String[] entradas = {
-                "Firulais|perro|Guau",
-                "Polly|loro|Hablar",
-                "Rex|perro|Guau Guau"
+                "Firulais|perro|woof",
+                "Polly|loro|carretear",
+                "Rex|perro|woof",
+                "Golden|pez|glup-glup"
+
         };
 
         var animales = service.datoEntrada(entradas);
